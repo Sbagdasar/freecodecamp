@@ -142,7 +142,7 @@ if(count > 0){
   // Only change code above this line
 }
 
-cc(2); cc(3); cc(7); cc('K'); cc('A');*/
+cc(2); cc(3); cc(7); cc('K'); cc('A');
 // task 8
 const myDog = {
     // Only change code below this line
@@ -154,4 +154,16 @@ const myDog = {
   
   
     // Only change code above this line
-  };
+  };*/
+
+  //task 9
+  // Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat;      // Change this line
+const shirtValue = testObj.shirt;    // Change this line
