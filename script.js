@@ -65,7 +65,7 @@
   }
   
   sequentialSizes(1);
-  */
+  
  // task 4
  function chainToSwitch(val) {
     let answer = "";
@@ -89,4 +89,13 @@
     return answer;
   }
   
-  chainToSwitch(7);
+  chainToSwitch(7);*/
+  // task 5
+  function isLess(a, b) {
+    // Only change code below this line
+    
+      return a < b;
+    // Only change code above this line
+  }
+  
+  isLess(10, 15);
