@@ -179,7 +179,7 @@ const testObj = {
 // Only change code below this line
 const entreeValue = testObj["an entree"];   // Change this line
 const drinkValue = testObj["the drink"];    // Change this line
-*/
+
 //task 11
 // Setup
 const testObj = {
@@ -191,3 +191,15 @@ const testObj = {
 // Only change code below this line
 const playerNumber = 16;  // Change this line
 const player = testObj[playerNumber];   // Change this line
+
+//task 12
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+myDog['name'] = "Happy Coder"
+// Only change code below this line
+*/
