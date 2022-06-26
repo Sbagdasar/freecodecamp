@@ -98,7 +98,7 @@
     // Only change code above this line
   }
   
-  isLess(10, 15);*/
+  isLess(10, 15);
   // task 6
   // Setup
 function abTest(a, b) {
@@ -113,4 +113,33 @@ function abTest(a, b) {
     return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
   }
   
-  abTest(2,2);
+  abTest(2,2);*/
+  //task 7
+  let count = 0;
+
+function cc(card) {
+  // Only change code below this line
+switch(card){
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+  case 6:count++;
+  break;
+  case 10:
+  case "A":
+  case "K":
+  case "J":
+  case "Q": count--;
+  break;
+}
+if(count > 0){
+  return count + " Bet"
+}else{
+  return count + " Hold"
+}
+  return "Change Me";
+  // Only change code above this line
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
