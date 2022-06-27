@@ -175,4 +175,4 @@ function phoneticLookup(val) {
     return result;
 }
 
-phoneticLookup("charlie");
+phoneticLookup("charlie")
