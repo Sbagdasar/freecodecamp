@@ -207,6 +207,7 @@ const myPlants = [
 const secondTree = myPlants[1].list[1];
 */
 // Setup
+/*
 const recordCollection = {
     2548: {
         albumTitle: 'Slippery When Wet',
@@ -260,6 +261,13 @@ for(let i=1; i<=5; i++){
 // Setup
 const myArray = [];
 for(let i=1 ; i<=9 ; i+=2){
+    myArray.push(i)
+}
+// Only change code below this line
+*/
+// Setup
+const myArray = [];
+for(let i=9; i>=1; i-=2){
     myArray.push(i)
 }
 // Only change code below this line
