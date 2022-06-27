@@ -144,14 +144,35 @@ if(count > 0){
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');*/
 // task 8
+/*
 const myDog = {
     // Only change code below this line
-   
+
     "name": "Whiskers",
     "legs": 4,
     "tails": 1,
     "friends": ["Bob","Mob"]
-  
-  
+
+
     // Only change code above this line
-  };
+  };*/
+// task 9
+// Setup
+function phoneticLookup(val) {
+    let result = "";
+
+    // Only change code below this line
+    const lookup ={
+        "alpha":"Adams",
+        "bravo":"Boston",
+        "charlie":"Chicago",
+        "delta":"Denver",
+        "echo":"Easy",
+        "foxtrot":"Frank"
+    }
+    result = lookup[val]
+    // Only change code above this line
+    return result;
+}
+
+phoneticLookup("charlie");
