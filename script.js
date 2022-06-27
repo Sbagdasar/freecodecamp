@@ -144,6 +144,7 @@ if(count > 0){
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');*/
 // task 8
+/*
 const myDog = {
     // Only change code below this line
    
@@ -173,4 +174,12 @@ function phoneticLookup(val) {
     return result;
 }
 
-phoneticLookup("charlie");
+phoneticLookup("charlie");*/
+function checkObj(obj, checkProp) {
+    // Only change code below this line
+    if(obj.hasOwnProperty(checkProp)){
+        return obj[checkProp];
+    }
+    return "Not Found";
+    // Only change code above this line
+}
