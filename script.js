@@ -184,6 +184,7 @@ function checkObj(obj, checkProp) {
     return "Not Found";
     // Only change code above this line
 }*/
+/*
 const myPlants = [
     {
         type: "flowers",
@@ -204,3 +205,4 @@ const myPlants = [
 ];
 
 const secondTree = myPlants[1].list[1];
+*/
