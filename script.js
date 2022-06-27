@@ -10,12 +10,12 @@
       break;
       case 4: answer="delta";
   }
-  
-  
+
+
     // Only change code above this line
     return answer;
   }
-  
+
   caseInSwitch(1);
   */
  //task 2
@@ -32,14 +32,14 @@
     default: answer="stuff";
     break;
   }
-  
-  
+
+
     // Only change code above this line
     return answer;
   }
-  
+
   switchOfStuff(1);
-  
+
  // task 3
  function sequentialSizes(val) {
     let answer = "";
@@ -58,14 +58,14 @@
     case 9: answer = "High";
     break;
   }
-  
-  
+
+
     // Only change code above this line
     return answer;
   }
-  
+
   sequentialSizes(1);
-  
+
  // task 4
  function chainToSwitch(val) {
     let answer = "";
@@ -81,38 +81,38 @@
    break;
     case 7:answer = "Ate Nine";
     break;
-    
+
   }
-    
-  
+
+
     // Only change code above this line
     return answer;
   }
-  
+
   chainToSwitch(7);
   // task 5
   function isLess(a, b) {
     // Only change code below this line
-    
+
       return a < b;
     // Only change code above this line
   }
-  
+
   isLess(10, 15);
   // task 6
   // Setup
 function abTest(a, b) {
     // Only change code below this line
-  
+
   if(a<0 || b<0){
     return undefined
   }
-  
+
     // Only change code above this line
-  
+
     return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
   }
-  
+
   abTest(2,2);
   //task 7
   let count = 0;
@@ -147,13 +147,13 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');*/
 /*
 const myDog = {
     // Only change code below this line
-   
+
     "name": "Whiskers",
     "legs": 4,
     "tails": 1,
     "friends": ["Bob","Mob"]
-  
-  
+
+
     // Only change code above this line
   };
 // Setup
@@ -254,6 +254,12 @@ while(i>=0){
 // Setup
 const myArray = [];
 for(let i=1; i<=5; i++){
+    myArray.push(i)
+}
+// Only change code below this line
+// Setup
+const myArray = [];
+for(let i=1 ; i<=9 ; i+=2){
     myArray.push(i)
 }
 // Only change code below this line
