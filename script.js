@@ -264,12 +264,13 @@ for(let i=1 ; i<=9 ; i+=2){
     myArray.push(i)
 }
 // Only change code below this line
-*/
+*//*
 // Setup
 const myArray = [];
 for(let i=9; i>=1; i-=2){
     myArray.push(i)
 }
+
 // Only change code below this line
 // Setup
 const myArr = [2, 3, 4, 5, 6];
@@ -290,4 +291,48 @@ function multiplyAll(arr) {
     return product;
 }
 
-multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);*/
+// new task
+// Setup
+const contacts = [
+    {
+        firstName: "Akira",
+        lastName: "Laine",
+        number: "0543236543",
+        likes: ["Pizza", "Coding", "Brownie Points"],
+    },
+    {
+        firstName: "Harry",
+        lastName: "Potter",
+        number: "0994372684",
+        likes: ["Hogwarts", "Magic", "Hagrid"],
+    },
+    {
+        firstName: "Sherlock",
+        lastName: "Holmes",
+        number: "0487345643",
+        likes: ["Intriguing Cases", "Violin"],
+    },
+    {
+        firstName: "Kristian",
+        lastName: "Vos",
+        number: "unknown",
+        likes: ["JavaScript", "Gaming", "Foxes"],
+    },
+];
+
+function lookUpProfile(name, prop) {
+    // Only change code below this line
+    for(let i=0;i<contacts.length;i++){
+        if(name === contacts[i].firstName && contacts[i].hasOwnProperty(prop)){
+            return contacts[i][prop]
+        }else if(name !== contacts[i].firstName){
+            return "No such contact"
+        }else if(contacts[i].hasOwnProperty(prop) === false){
+            return "No such property"
+        }
+    }
+    // Only change code above this line
+}
+
+console.log(lookUpProfile("Kristian", "lastName"))
