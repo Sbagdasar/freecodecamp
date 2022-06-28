@@ -294,6 +294,7 @@ function multiplyAll(arr) {
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);*/
 // new task
 // Setup
+/*
 const contacts = [
     {
         firstName: "Akira",
@@ -336,4 +337,19 @@ function lookUpProfile(name, prop) {
         return "No such contact"
         // Only change code above this line
 }
-console.log(lookUpProfile("Kristian", "lastName"))
+console.log(lookUpProfile("Kristian", "lastName"))*/
+
+function randomInt(min, max){
+    let x = Math.random()
+    console.log(x)
+    let y = Math.floor(x*(max-min+1))
+    console.log(y)
+    console.log(y+min)
+    return y+min
+}
+console.log(randomInt(2, 4))
+function convertToInteger(str) {
+    return parseInt(str)
+}
+
+convertToInteger("56");
