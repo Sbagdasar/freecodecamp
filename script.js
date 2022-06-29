@@ -339,6 +339,7 @@ function lookUpProfile(name, prop) {
 }
 console.log(lookUpProfile("Kristian", "lastName"))*/
 
+/*
 function randomInt(min, max){
     let x = Math.random()
     console.log(x)
@@ -362,4 +363,19 @@ function checkSign(num) {
     return (num > 0)?"positive":(num<0)?"negative":"zero"
 }
 
-checkSign(10);
+checkSign(10);*/
+const countArray =[]
+function countup(n) {
+
+    if (n < 1) {
+        return [];
+    } else {
+        console.log(n)
+        countArray.push(n);
+        countup(n - 1);
+
+
+    }
+    return countArray;
+}
+console.log(countup(5));
