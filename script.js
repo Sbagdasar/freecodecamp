@@ -391,6 +391,7 @@ function rangeOfNumbers(startNum, endNum) {
 
 };
 //console.log(rangeOfNumbers(1, 5))*/
+/*
 function freezeObj() {
     const MATH_CONSTANTS = {
         PI: 3.14
@@ -406,4 +407,4 @@ function freezeObj() {
     }
     return MATH_CONSTANTS.PI;
 }
-const PI = freezeObj();
+const PI = freezeObj();*/
