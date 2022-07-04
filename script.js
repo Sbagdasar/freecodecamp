@@ -467,7 +467,16 @@ const increment = (number, value=1) => number + value;
 //         return employed == true && vacation ==false? true:false
 //       }
 
-var re = /(\w+)\s(\w+)/;
-var str = 'John Smith';
-var newstr = str.replace(re, '$2, $1');
-console.log(newstr);
+// var re = /(\w+)\s(\w+)/;
+// var str = 'John Smith';
+// var newstr = str.replace(re, '$2, $1');
+// console.log(newstr);
+function correct(string)
+{
+	let x = ''
+      x = string.replace(/[0, 1, 5]\s['O',"I",'S']/gi, "$1", "$2", "$3")
+ 
+ 
+  return x
+}
+console.log(correct("L0ND0N"))
