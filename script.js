@@ -422,47 +422,52 @@ const increment = (number, value=1) => number + value;
 // Only change code above this line
 */
 
-const sum = (...args) => {
-    console.log(args)
-    return args.reduce((a, b) => a + b, 0);
-}
-sum(1,2,3,4,5,5)
-const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
-let arr2;
+// const sum = (...args) => {
+//     console.log(args)
+//     return args.reduce((a, b) => a + b, 0);
+// }
+// sum(1,2,3,4,5,5)
+// const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+// let arr2;
 
-arr2 = [...arr1];  // Change this line
+// arr2 = [...arr1];  // Change this line
 
-console.log(arr2);
+// console.log(arr2);
 
-const HIGH_TEMPERATURES = {
-    yesterday: 75,
-    today: 77,
-    tomorrow: 80
-};
+// const HIGH_TEMPERATURES = {
+//     yesterday: 75,
+//     today: 77,
+//     tomorrow: 80
+// };
 
-// Only change code below this line
+// // Only change code below this line
 
-const {today,tomorrow} = HIGH_TEMPERATURES;
-const HIGH_TEMPERATURES = {
-    yesterday: 75,
-    today: 77,
-    tomorrow: 80
-};
+// const {today,tomorrow} = HIGH_TEMPERATURES;
+// const HIGH_TEMPERATURES = {
+//     yesterday: 75,
+//     today: 77,
+//     tomorrow: 80
+// };
 
-// Only change code below this line
+// // Only change code below this line
 
-const {today: highToday, tomorrow: highTomorrow} = HIGH_TEMPERATURES;
-// Only change code above this line
-function reverseList(list) {
-    return list.reverse()
-    }
+// const {today: highToday, tomorrow: highTomorrow} = HIGH_TEMPERATURES;
+// // Only change code above this line
+// function reverseList(list) {
+//     return list.reverse()
+//     }
 
-    class Kata {
-        static getVolumeOfCuboid(length, width, height) {
-        return length*width*height
-        }
-      }
+//     class Kata {
+//         static getVolumeOfCuboid(length, width, height) {
+//         return length*width*height
+//         }
+//       }
 
-      function setAlarm(employed, vacation){
-        return employed == true && vacation ==false? true:false
-      }
+//       function setAlarm(employed, vacation){
+//         return employed == true && vacation ==false? true:false
+//       }
+
+var re = /(\w+)\s(\w+)/;
+var str = 'John Smith';
+var newstr = str.replace(re, '$2, $1');
+console.log(newstr);
