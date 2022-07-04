@@ -462,3 +462,7 @@ function reverseList(list) {
         return length*width*height
         }
       }
+
+      function setAlarm(employed, vacation){
+        return employed == true && vacation ==false? true:false
+      }
