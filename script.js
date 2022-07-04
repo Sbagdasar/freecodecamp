@@ -473,10 +473,6 @@ const increment = (number, value=1) => number + value;
 // console.log(newstr);
 function correct(string)
 {
-	let x = ''
-      x = string.replace(/[0, 1, 5]\s['O',"I",'S']/gi, "$1", "$2", "$3")
- 
- 
-  return x
+  return string.replace(/0/gi, "O").replace(/1/gi,"I").replace(/5/gi,"S")
 }
 console.log(correct("L0ND0N"))
