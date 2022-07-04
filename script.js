@@ -456,3 +456,9 @@ const {today: highToday, tomorrow: highTomorrow} = HIGH_TEMPERATURES;
 function reverseList(list) {
     return list.reverse()
     }
+
+    class Kata {
+        static getVolumeOfCuboid(length, width, height) {
+        return length*width*height
+        }
+      }
