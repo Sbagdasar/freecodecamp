@@ -492,3 +492,8 @@ const increment = (number, value=1) => number + value;
 //   let a = 8, b = 6;
 // // Only change code below this line
 //  [a, b] = [b, a]
+function mergeArrays(arr1, arr2) {
+    //let arr = Array.from(new Set([...arr1, ...arr2]))
+    let arr = [...(new Set([...arr1, ...arr2]))]
+    return arr.sort(function (a, b) {  return a - b;  })
+  }
