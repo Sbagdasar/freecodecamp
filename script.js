@@ -562,3 +562,4 @@ const bicycle = {
   // Only change code above this line
   bicycle.setGear(3);
   console.log(bicycle.gear);
+console.log(bicycle.gear)
