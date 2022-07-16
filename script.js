@@ -585,7 +585,7 @@ makeServerRequest.then(result => {
 makeServerRequest.catch(error => {
   console.log(error);
 });*/
-
+/*
 let camelize = (str)=>{
   console.log(str)
   let newStr = ''
@@ -598,8 +598,19 @@ let camelize = (str)=>{
   }).join('')
   return newStr
 }
-// best practice
+best practice
 let camelize = (str)=>{
   return str.split('-').map((item, index)=>index === 0 ? item : item[0].toUpperCase() + item.slice(1)).join('')
 }
-camelize('list-style-image')
+camelize('list-style-image')*/
+function filterRange(arr, a, b){
+
+  return arr.filter(item => item >= a && item<=b);
+}
+let arr = [5, 3, 8, 1];
+
+let filtered = filterRange(arr, 1, 4);
+
+console.log( filtered ); // 3,1 (совпадающие значения)
+
+console.log( arr ); // 5,3,8,1 (без изменений)
