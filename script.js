@@ -1,4 +1,5 @@
-/*function caseInSwitch(val) {
+/*
+/!*function caseInSwitch(val) {
     let answer = "";
     // Only change code below this line
   switch (val) {
@@ -17,9 +18,9 @@
   }
 
   caseInSwitch(1);
-  */
+  *!/
  //task 2
- /*function switchOfStuff(val) {
+ /!*function switchOfStuff(val) {
     let answer = "";
     // Only change code below this line
   switch(val){
@@ -142,9 +143,9 @@ if(count > 0){
   // Only change code above this line
 }
 
-cc(2); cc(3); cc(7); cc('K'); cc('A');*/
+cc(2); cc(3); cc(7); cc('K'); cc('A');*!/
 // task 8
-/*
+/!*
 const myDog = {
     // Only change code below this line
 
@@ -174,8 +175,8 @@ function phoneticLookup(val) {
     return result;
 }
 
-phoneticLookup("charlie");*/
-/*
+phoneticLookup("charlie");*!/
+/!*
 function checkObj(obj, checkProp) {
     // Only change code below this line
     if(obj.hasOwnProperty(checkProp)){
@@ -183,8 +184,8 @@ function checkObj(obj, checkProp) {
     }
     return "Not Found";
     // Only change code above this line
-}*/
-/*
+}*!/
+/!*
 const myPlants = [
     {
         type: "flowers",
@@ -205,9 +206,9 @@ const myPlants = [
 ];
 
 const secondTree = myPlants[1].list[1];
-*/
+*!/
 // Setup
-/*
+/!*
 const recordCollection = {
     2548: {
         albumTitle: 'Slippery When Wet',
@@ -264,7 +265,7 @@ for(let i=1 ; i<=9 ; i+=2){
     myArray.push(i)
 }
 // Only change code below this line
-*//*
+*!//!*
 // Setup
 const myArray = [];
 for(let i=9; i>=1; i-=2){
@@ -291,10 +292,10 @@ function multiplyAll(arr) {
     return product;
 }
 
-multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);*/
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);*!/
 // new task
 // Setup
-/*
+/!*
 const contacts = [
     {
         firstName: "Akira",
@@ -337,9 +338,9 @@ function lookUpProfile(name, prop) {
         return "No such contact"
         // Only change code above this line
 }
-console.log(lookUpProfile("Kristian", "lastName"))*/
+console.log(lookUpProfile("Kristian", "lastName"))*!/
 
-/*
+/!*
 function randomInt(min, max){
     let x = Math.random()
     console.log(x)
@@ -363,7 +364,7 @@ function checkSign(num) {
     return (num > 0)?"positive":(num<0)?"negative":"zero"
 }
 
-checkSign(10);*//*
+checkSign(10);*!//!*
 const countArray =[]
 function countup(n) {
 
@@ -390,8 +391,8 @@ function rangeOfNumbers(startNum, endNum) {
     }
 
 };
-//console.log(rangeOfNumbers(1, 5))*/
-/*
+//console.log(rangeOfNumbers(1, 5))*!/
+/!*
 function freezeObj() {
     const MATH_CONSTANTS = {
         PI: 3.14
@@ -407,8 +408,8 @@ function freezeObj() {
     }
     return MATH_CONSTANTS.PI;
 }
-const PI = freezeObj();*/
-/*
+const PI = freezeObj();*!/
+/!*
 const magic = () =>{
     return new Date();
 };
@@ -420,7 +421,7 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 // Only change code below this line
 const increment = (number, value=1) => number + value;
 // Only change code above this line
-*/
+*!/
 
 // const sum = (...args) => {
 //     console.log(args)
@@ -583,4 +584,4 @@ makeServerRequest.then(result => {
 });
 makeServerRequest.catch(error => {
   console.log(error);
-});
+});*/
